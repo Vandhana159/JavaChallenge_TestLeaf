@@ -11,7 +11,7 @@ import java.util.Arrays;
 */
 public class FindUniqueElements_02 {
 public static void main(String[] args) {
-	int[] nums = {4,1,2,1,2};
+	int[] nums = {1,1,2,2,3,3,4,4,5,5,6,7,7,8,8,9,9};
 	Arrays.sort(nums);
 	int count =0;
 		if(nums.length == 1)

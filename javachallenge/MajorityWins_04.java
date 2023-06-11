@@ -13,7 +13,7 @@ import java.util.Arrays;
  */
 public class MajorityWins_04 {
 public static void main(String[] args) {
-	int[] nums = {1,2,3,3,4,4,4,1};
+	int[] nums = {2,2,1,1,1,2,2};
 	int major=0;
 	boolean flag= false;
 	Arrays.sort(nums);
