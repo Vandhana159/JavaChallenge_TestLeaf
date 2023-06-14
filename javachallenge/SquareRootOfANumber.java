@@ -11,7 +11,7 @@ import java.util.Scanner;
 /*Create a variable (counter) i and take care of some base cases, (i.e when the given number is 0 or 1).
 Run a loop until i*i <= n, where n is the given number. Increment i by 1.
 The floor of the square root of the number is i – 1*/
-public class SquareRootOfANumber_01 {
+public class SquareRootOfANumber {
 	public int squareRoot(int num)
 	{
 		int output = 0;
